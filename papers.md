@@ -4,7 +4,7 @@
   notes: Specifically, we focus on the task of multi-hop QA over KB.
   
 1. ### SPARQA: Skeleton-Based Semantic Parsing for Complex Questions over Knowledge Bases. AAAI 2020. [code](https://github.com/nju-websoft/SPARQA)
-   This paper use bert to do many works. They split the construction task of a SPARQL language for an input natural language question into two parts. First, they decompose the complex question using four bert-based nlp models, and generate a set of subqueries. Then, they use two models to score a complete query which is a combination of the subqueries set. 
+   This paper uses bert to do many works. They split the construction task of a SPARQL language for an input natural language question into two parts. First, they decompose the complex question using four bert-based nlp models, and generate a set of subqueries. Then, they use two models to score a complete query which is a combination of the subqueries set. 
 2. 
 
 
