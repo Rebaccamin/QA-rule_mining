@@ -2,8 +2,8 @@
 
 # Outline:
    two types of work on multi-hop KBQA.
-   ## 1. natual language -> semantic graph -> query graph (~~ SPARQL)
-   ## 2. entity in question -> an entity centric graph from KB -> some candidates answers -> select by embedding space.
+    1. natual language -> semantic graph -> query graph (~~ SPARQL)
+    2. entity in question -> an entity centric graph from KB -> some candidates answers -> select by embedding space.
 
 # Papers of KBQA:
   notes: Specifically, we focus on the task of multi-hop QA over KB.
