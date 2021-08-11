@@ -32,7 +32,7 @@
 
 
 # Datasets of QA.
-**We list the complex questions dataset.**
+**We list the complex questions dataset.** (the password is KBQA)
 1. ### KQA Pro.[source](https://github.com/shijx12/KQAPro_Baselines).
    This dataset contains 117970 complex questions, each question has two formats, Logic form and Natural language. The target KB is wikidata. 
    
