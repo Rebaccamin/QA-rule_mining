@@ -2,7 +2,8 @@
 
 # Outline:
    two types of work on multi-hop KBQA.
-   ## 1. nat
+   ## 1. natual language -> semantic graph -> query graph (~~ SPARQL)
+   ## 2. entity in question -> an entity centric graph from KB -> some candidates answers -> select by embedding space.
 
 # Papers of KBQA:
   notes: Specifically, we focus on the task of multi-hop QA over KB.
@@ -11,6 +12,19 @@
    This paper uses bert to do many works. They split the construction task of a SPARQL language for an input natural language question into two parts. First, they decompose the complex question using four bert-based nlp models, and generate a set of subqueries. Then, they use two models to score a complete query which is a combination of the subqueries set. 
 2. ### Stepwise Reasoning for Multi-Relation Question Answering over Knowledge Graph with Weak Supervision. WSDM2020
    This paper
+3. ### Hierarchical Query Graph Generation for Complex Question Answering over Knowledge Graph. CIKM 2020
+4. ### Multi-hop Knowledge Base Question Answering with an Iterative Sequence Matching Model. ICDM 2019
+5. ### A State-transition Framework to Answer Complex Questions over Knowledge Base. ALC 2018
+6. ### Answering Questions with Complex Semantic Constraints en Knowledge Bases on Open KB. CIKM 2015
+7. ### Improving Multi-hop Question Answering over Knowledge Graphs using Knowledge Base Embeddings. ACL 2020
+
+
+
+# Papers of semantic graph and theoretical proof.
+
+1. ### A Note on the Budgeted Maximization of Submodular Functions. [source](http://reports-archive.adm.cs.cmu.edu/anon/cald/CMU-CALD-05-103.pdf)
+2. ### LSQ: The Linked SPARQL Queries Dataset [source](https://aidanhogan.com/docs/LSQ_ISWC2015.pdf)
+
 
 
 
