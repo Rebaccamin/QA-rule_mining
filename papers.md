@@ -11,7 +11,6 @@
 1. ### SPARQA: Skeleton-Based Semantic Parsing for Complex Questions over Knowledge Bases. AAAI 2020. [code](https://github.com/nju-websoft/SPARQA)
    This paper uses bert to do many works. They split the construction task of a SPARQL language for an input natural language question into two parts. First, they decompose the complex question using four bert-based nlp models, and generate a set of subqueries. Then, they use two models to score a complete query which is a combination of the subqueries set. 
 2. ### Stepwise Reasoning for Multi-Relation Question Answering over Knowledge Graph with Weak Supervision. WSDM2020
-   This paper
 3. ### Hierarchical Query Graph Generation for Complex Question Answering over Knowledge Graph. CIKM 2020
 4. ### Multi-hop Knowledge Base Question Answering with an Iterative Sequence Matching Model. ICDM 2019
 5. ### A State-transition Framework to Answer Complex Questions over Knowledge Base. ALC 2018
