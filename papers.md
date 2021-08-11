@@ -1,11 +1,16 @@
    Related works about QA and Rule Mining.
 
+# Outline:
+   two types of work on multi-hop KBQA.
+   ## 1. nat
+
 # Papers of KBQA:
   notes: Specifically, we focus on the task of multi-hop QA over KB.
   
 1. ### SPARQA: Skeleton-Based Semantic Parsing for Complex Questions over Knowledge Bases. AAAI 2020. [code](https://github.com/nju-websoft/SPARQA)
    This paper uses bert to do many works. They split the construction task of a SPARQL language for an input natural language question into two parts. First, they decompose the complex question using four bert-based nlp models, and generate a set of subqueries. Then, they use two models to score a complete query which is a combination of the subqueries set. 
-2. 
+2. ### Stepwise Reasoning for Multi-Relation Question Answering over Knowledge Graph with Weak Supervision. WSDM2020
+   This paper
 
 
 
@@ -27,3 +32,7 @@
 # Preliminaries.
    For the task of KBQA, as we need to fetch answers from a Knowledge Base. We always use a SPARQL to evaluate over a KB. From the begining of the task, we need to build a local KB. 
    1. Instructions for build a local KB. Most of existing works choose to use . 
+
+
+# Some definitions:
+   logic forms: SPARQL, -DCS
