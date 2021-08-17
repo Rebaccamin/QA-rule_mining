@@ -17,8 +17,16 @@
 5. ### A State-transition Framework to Answer Complex Questions over Knowledge Base. ALC 2018
 6. ### Answering Questions with Complex Semantic Constraints en Knowledge Bases on Open KB. CIKM 2015
 7. ### Improving Multi-hop Question Answering over Knowledge Graphs using Knowledge Base Embeddings. ACL 2020
-
-
+----------
+1. ### SPARQL QUERY GENERATION FOR COMPLEX QUESTION ANSWERING WITH BERT AND BILSTM-BASED MODEL.
+  Given a complex natural language question as an input, this work first detects the template of this question. then, entity linking and relation linking, then path ranking (for the complex logic in the query triples). finally, generate a sparql query which can used execute over a kb to answer the question.
+  
+  Dataset: LC-QUAD 1.0 and LC-QUAD 2.0
+2. ### Learning to Rank Query Graphs for Complex Question Answering over Knowledge Graphs.
+   given a 
+  
+  Dataset: LC-QUAD, QALD-7
+3. asdh
 
 # Papers of semantic graph and theoretical proof.
 
@@ -41,6 +49,10 @@
    This dataset contains 5166 questions, 2558 for training and 2608 for testing. The target KB is [Freebase](https://pan.baidu.com/s/1FWwv1R_7JtO_mpk_6pL_TQ) (version June 2013). Logic Form (SPARQL) & NL.
 3. ### ComplexWebQuestion. [source](https://pan.baidu.com/s/106vC73W9WKXyuuFcaoPIuQ)
    This dataset contains 34689 questions with a split of 80-10-10 for training, validation and test sets. Logic Form (SPARQL) & NL. The target KB is [Freebase](https://pan.baidu.com/s/1CCxljj_yH9S3Y4Zeh6epmw) (version 2015-08-09)
+
+4. Lcquad.
+
+6. QALD-X series（QALD-7)
 
 
 # Preliminaries.
