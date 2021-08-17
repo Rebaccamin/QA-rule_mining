@@ -19,16 +19,17 @@
 7. ### Improving Multi-hop Question Answering over Knowledge Graphs using Knowledge Base Embeddings. ACL 2020
 ----------
 1. ### SPARQL QUERY GENERATION FOR COMPLEX QUESTION ANSWERING WITH BERT AND BILSTM-BASED MODEL.
-  Given a complex natural language question as an input, this work first detects the template of this question. then, entity linking and relation linking, then path ranking (for the complex logic in the query triples). finally, generate a sparql query which can used execute over a kb to answer the question.
+   Given a complex natural language question as an input, this work first detects the template of this question. then, entity linking and relation linking, then path ranking (for the complex logic in the query triples). finally, generate a sparql query which can used execute over a kb to answer the question.
   
-  Dataset: LC-QUAD 1.0 and LC-QUAD 2.0
+   Dataset: LC-QUAD 1.0 and LC-QUAD 2.0
   
-2. ### Learning to Rank Query Graphs for Complex Question Answering over Knowledge Graphs.
-   given a 
+2. ### Learning to Rank Query Graphs for Complex Question Answering over Knowledge Graphs. ** [code][https://github.com/AskNowQA/KrantikariQA]
+   given a natural language question (complex), to get the query patterns for generating a sparql query. they generate candidate chains by enumerate all 1 and 2 hop paths around the entity of the question, and then use a bert-based model to score the paths. 
+   ！！！！rule generation, and efficiency time,
+   Dataset: LC-QUAD 1.0, QALD-7
   
-  Dataset: LC-QUAD, QALD-7
-  
-3. ###asdh
+3. ### Formal Query Building with Query Structure Prediction for Complex Question Answering over Knowledge Base.
+    it argues 
 
 # Papers of semantic graph and theoretical proof.
 
@@ -42,6 +43,8 @@
 
 
 # Datasets of QA.
+
+
 **We list the complex questions dataset.** (the password is KBQA)
 1. ### KQA Pro.[source](https://github.com/shijx12/KQAPro_Baselines).
    This dataset contains 117970 complex questions, each question has two formats, Logic form and Natural language. The target KB is wikidata. 
@@ -52,9 +55,9 @@
 3. ### ComplexWebQuestion. [source](https://pan.baidu.com/s/106vC73W9WKXyuuFcaoPIuQ)
    This dataset contains 34689 questions with a split of 80-10-10 for training, validation and test sets. Logic Form (SPARQL) & NL. The target KB is [Freebase](https://pan.baidu.com/s/1CCxljj_yH9S3Y4Zeh6epmw) (version 2015-08-09)
 
-4. Lcquad.
+4. Lcquad1.0 which contains 5000 questions and 2.0 contains 30000 questions.
 
-6. QALD-X series（QALD-7)
+6. QALD-7
 
 
 # Preliminaries.
