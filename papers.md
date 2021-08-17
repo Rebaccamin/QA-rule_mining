@@ -29,7 +29,7 @@
    Dataset: LC-QUAD 1.0, QALD-7
   
 3. ### Formal Query Building with Query Structure Prediction for Complex Question Answering over Knowledge Base.
-    it argues 
+    it argues 2[link](https://github.com/Rebaccamin/QA-rule_mining/blob/main/papers.md#:~:text=Learning-,to,-Rank%20Query%20Graphs)
 
 # Papers of semantic graph and theoretical proof.
 
