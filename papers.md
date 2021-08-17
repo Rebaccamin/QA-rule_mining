@@ -22,11 +22,13 @@
   Given a complex natural language question as an input, this work first detects the template of this question. then, entity linking and relation linking, then path ranking (for the complex logic in the query triples). finally, generate a sparql query which can used execute over a kb to answer the question.
   
   Dataset: LC-QUAD 1.0 and LC-QUAD 2.0
+  
 2. ### Learning to Rank Query Graphs for Complex Question Answering over Knowledge Graphs.
    given a 
   
   Dataset: LC-QUAD, QALD-7
-3. asdh
+  
+3. ###asdh
 
 # Papers of semantic graph and theoretical proof.
 
