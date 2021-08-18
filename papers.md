@@ -17,7 +17,7 @@
 5. ### A State-transition Framework to Answer Complex Questions over Knowledge Base. ALC 2018
 6. ### Answering Questions with Complex Semantic Constraints en Knowledge Bases on Open KB. CIKM 2015
 7. ### Improving Multi-hop Question Answering over Knowledge Graphs using Knowledge Base Embeddings. ACL 2020
-----------
+----------useful!----------
 1. ### SPARQL QUERY GENERATION FOR COMPLEX QUESTION ANSWERING WITH BERT AND BILSTM-BASED MODEL.
    Given a complex natural language question as an input, this work first detects the template of this question. then, entity linking and relation linking, then path ranking (for the complex logic in the query triples). finally, generate a sparql query which can used execute over a kb to answer the question.
   
@@ -29,9 +29,12 @@
    Dataset: LC-QUAD 1.0, QALD-7
   
 3. ### Formal Query Building with Query Structure Prediction for Complex Question Answering over Knowledge Base.
-    it argues 2[link](https://github.com/Rebaccamin/QA-rule_mining/blob/main/papers.md#:~:text=Learning-,to,-Rank%20Query%20Graphs)
-
-# Papers of semantic graph and theoretical proof.
+    it argues the aboved paper 2 lack of the consideration of query structure.
+    
+    Dataset: LC-QuAD, CompQ and WebQ.
+    
+4. ### Formal Query Generation for Question Answering over Knowledge Bases. 
+　　Specificlly, given a question sentence and a knowledge base K, which the entity and relation have been detected already, they focus on solve the task which aims to generate a Sparql query.  In this work, they assume the grounding query structure of an input question in the target KB is a walk which actually is a linked path. They first extract a subgraph from the target KB, and then enumerate all walks in the subgraph. they choose the mapped walks to the input question by a Tree-LSTM ranking model.
 
 1. ### A Note on the Budgeted Maximization of Submodular Functions. [source](http://reports-archive.adm.cs.cmu.edu/anon/cald/CMU-CALD-05-103.pdf)
 2. ### LSQ: The Linked SPARQL Queries Dataset [source](https://aidanhogan.com/docs/LSQ_ISWC2015.pdf)
