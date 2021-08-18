@@ -33,8 +33,10 @@
     
     Dataset: LC-QuAD, CompQ and WebQ.
     
-4. ### Formal Query Generation for Question Answering over Knowledge Bases. 
-　　Specificlly, given a question sentence and a knowledge base K, which the entity and relation have been detected already, they focus on solve the task which aims to generate a Sparql query.  In this work, they assume the grounding query structure of an input question in the target KB is a walk which actually is a linked path. They first extract a subgraph from the target KB, and then enumerate all walks in the subgraph. they choose the mapped walks to the input question by a Tree-LSTM ranking model.
+4. ### Formal Query Generation for Question Answering over Knowledge Bases. [code](https://github.com/AskNowQA/SQG.)
+　　Specificlly, given a question sentence and a knowledge base K, which the entity and relation have been detected already, they focus on solve the task which aims to generate a Sparql query.  In this work, they assume the grounding query structure of an input question in the target KB is a walk which actually is a linked path. They first extract a subgraph from the target KB, and then enumerate all valid walks in the subgraph. they choose the mapped walks to the input question by a Tree-LSTM ranking model.
+   
+   Dataset: LC-QuAD 1.0
 
 1. ### A Note on the Budgeted Maximization of Submodular Functions. [source](http://reports-archive.adm.cs.cmu.edu/anon/cald/CMU-CALD-05-103.pdf)
 2. ### LSQ: The Linked SPARQL Queries Dataset [source](https://aidanhogan.com/docs/LSQ_ISWC2015.pdf)
