@@ -43,7 +43,10 @@
 
 
 
+# Papers related to KBQA (works not directly on kbqa problem)
 
+1. CBench: Demonstrating Comprehensive Evaluation of Question Answering Systems over Knowledge Graphs Through Deep Analysis of Benchmarks. VLDB 2021 
+2. 
 
 
 
@@ -63,6 +66,7 @@
 4. Lcquad1.0 which contains 5000 questions and 2.0 contains 30000 questions.
 
 6. QALD-7
+
 
 
 # Preliminaries.
