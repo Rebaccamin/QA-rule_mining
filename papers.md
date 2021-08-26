@@ -1,5 +1,6 @@
    Related works about QA and Rule Mining.
 
+------------------------------
 # Outline:
    Two types of solutions for multi-hop KBQA.
    
@@ -7,6 +8,7 @@
     
     2. entity in question -> an entity centric graph from KB -> some candidates answers -> select by embedding space.
 
+------------------------------
 # Papers of KBQA:
   notes: Specifically, we focus on the task of multi-hop QA over KB.
   
@@ -17,47 +19,43 @@
 5. ### A State-transition Framework to Answer Complex Questions over Knowledge Base. ALC 2018
 6. ### Answering Questions with Complex Semantic Constraints en Knowledge Bases on Open KB. CIKM 2015
 7. ### Improving Multi-hop Question Answering over Knowledge Graphs using Knowledge Base Embeddings. ACL 2020
-----------useful!----------
-1. ### SPARQL QUERY GENERATION FOR COMPLEX QUESTION ANSWERING WITH BERT AND BILSTM-BASED MODEL.
+8. ### SPARQL QUERY GENERATION FOR COMPLEX QUESTION ANSWERING WITH BERT AND BILSTM-BASED MODEL.
    Given a complex natural language question as an input, this work first detects the template of this question. then, entity linking and relation linking, then path ranking (for the complex logic in the query triples). finally, generate a sparql query which can used execute over a kb to answer the question.
   
    Dataset: LC-QUAD 1.0 and LC-QUAD 2.0
   
-2. ### Learning to Rank Query Graphs for Complex Question Answering over Knowledge Graphs. ** [code][https://github.com/AskNowQA/KrantikariQA]
+9. ### Learning to Rank Query Graphs for Complex Question Answering over Knowledge Graphs. [code](https://github.com/AskNowQA/KrantikariQA)
    given a natural language question (complex), to get the query patterns for generating a sparql query. they generate candidate chains by enumerate all 1 and 2 hop paths around the entity of the question, and then use a bert-based model to score the paths. 
    ！！！！rule generation, and efficiency time,
    Dataset: LC-QUAD 1.0, QALD-7
   
-3. ### Formal Query Building with Query Structure Prediction for Complex Question Answering over Knowledge Base.
-    it argues the aboved paper 2 lack of the consideration of query structure.
+10. ### Formal Query Building with Query Structure Prediction for Complex Question Answering over Knowledge Base.
+    it argues the aboved paper 9 lack of the consideration of query structure.
     
     Dataset: LC-QuAD, CompQ and WebQ.
     
-4. ### Formal Query Generation for Question Answering over Knowledge Bases. [code](https://github.com/AskNowQA/SQG.)
-　　Specificlly, given a question sentence and a knowledge base K, which the entity and relation have been detected already, they focus on solve the task which aims to generate a Sparql query.  In this work, they assume the grounding query structure of an input question in the target KB is a walk which actually is a linked path. They first extract a subgraph from the target KB, and then enumerate all valid walks in the subgraph. they choose the mapped walks to the input question by a Tree-LSTM ranking model.
-   
-   Dataset: LC-QuAD 1.0
+11. ### Formal Query Generation for Question Answering over Knowledge Bases. [code](https://github.com/AskNowQA/SQG.)
+    　　 Specificlly, given a question sentence and a knowledge base K, which the entity and relation have been detected already, they focus on solve the task which      aims to generate a Sparql query.  In this work, they assume the grounding query structure of an input question in the target KB is a walk which actually is a        linked path. They first extract a subgraph from the target KB, and then enumerate all valid walks in the subgraph. they choose the mapped walks to the input        question by a Tree-LSTM ranking model.
+     
+     Dataset: LC-QuAD 1.0
+12. ### Semantic Parsing via Staged Query Graph Generation:Question Answering with Knowledge Base. acl 2015
 
+ 
+------------------------------ 
+# Papers of theory
 1. ### A Note on the Budgeted Maximization of Submodular Functions. [source](http://reports-archive.adm.cs.cmu.edu/anon/cald/CMU-CALD-05-103.pdf)
 2. ### LSQ: The Linked SPARQL Queries Dataset [source](https://aidanhogan.com/docs/LSQ_ISWC2015.pdf)
 
 
-
+------------------------------
 # Papers related to KBQA (works not directly on kbqa problem)
-
 1. CBench: Demonstrating Comprehensive Evaluation of Question Answering Systems over Knowledge Graphs Through Deep Analysis of Benchmarks. VLDB 2021 
-2. 
 
-
-
+------------------------------
 # Datasets of QA.
-
-
 **We list the complex questions dataset.** (the password is KBQA)
 1. ### KQA Pro.[source](https://github.com/shijx12/KQAPro_Baselines).
    This dataset contains 117970 complex questions, each question has two formats, Logic form and Natural language. The target KB is wikidata. 
-   
-   
 2. ### GraphQuestions. [source](https://pan.baidu.com/s/1N_WBCmoQIvNCk_W4oFHeKA).
    This dataset contains 5166 questions, 2558 for training and 2608 for testing. The target KB is [Freebase](https://pan.baidu.com/s/1FWwv1R_7JtO_mpk_6pL_TQ) (version June 2013). Logic Form (SPARQL) & NL.
 3. ### ComplexWebQuestion. [source](https://pan.baidu.com/s/106vC73W9WKXyuuFcaoPIuQ)
@@ -68,11 +66,11 @@
 6. QALD-7
 
 
-
+------------------------------
 # Preliminaries.
    For the task of KBQA, as we need to fetch answers from a Knowledge Base. We always use a SPARQL to evaluate over a KB. From the begining of the task, we need to build a local KB. 
    1. Instructions for build a local KB. Most of existing works choose to use . 
 
-
+------------------------------
 # Some definitions:
    logic forms: SPARQL, -DCS
